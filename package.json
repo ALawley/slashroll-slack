@@ -1,0 +1,32 @@
+{
+  "name": "slashroll",
+  "version": "1.0.0",
+  "description": "Slack slash command to allow dice rolling with /roll.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALawley/slashroll-slack.git"
+  },
+  "keywords": [
+    "slack",
+    "slash command"
+  ],
+  "author": "Anna Lawley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALawley/slashroll-slack.git"
+  },
+  "homepage": "https://github.com/ALawley/slashroll-slack.git",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "dependencies": {
+    "botkit": "0.0.5",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^1.4.39"
+  }
+}
